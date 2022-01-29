@@ -1,1 +1,3 @@
-# qhacks-2022-website
+# QHacks 2022 Website
+
+A modern website designed to market our app.
