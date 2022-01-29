@@ -3,20 +3,23 @@ html {
     font-family: Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .drop-button {
     background-color: #31B4E8;
-    color: #a89e32;
+    color: black;
     text-align: left;
-    padding-left: 49vw;
-    padding-right: 49vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
     font-size: 20px;
     border: none;
+    position: relative;
+    z-index: 1;
 }
 
 .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
 }
 
@@ -46,14 +49,40 @@ html {
 .home-text {
     color: black;
     font-size: 6vw;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Bebas Neue';
     text-align: center;
     vertical-align: middle;
     font-stretch: ultra-condensed;
+    position: relative;
+}
+
+.home-text-blue {
+    color: #31B4E8;
+    font-size: 6vw;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    vertical-align: middle;
+    font-stretch: ultra-condensed;
+    position: relative;
 }
 
 .blue {
     color: #31B4E8;
+}
+
+.blue-subtitle {
+    color: #31B4E8;
+    font-size: 4vw;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    vertical-align: middle;
+    font-stretch: ultra-condensed;
+    position: relative;
+}
+
+.blue-non-caps {
+    color: #31B4E8;
+    font-family: 'Arvo';
 }
 
 .home-small-text {
@@ -64,6 +93,7 @@ html {
     vertical-align: middle;
     font-stretch: ultra-condensed;
     padding-top: 2vw;
+    position: relative;
 }
 
 .center-image {
@@ -72,4 +102,10 @@ html {
     padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.main-menu {
+    fill: #31B4E8;
+    position: sticky;
+    margin-top: -10px;
 }
