@@ -1,6 +1,12 @@
 html {
     background-color: white;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Bebas Neue';
+}
+
+img {
+    width: 80%;
+    height: auto;
+
 }
 
 body {
@@ -9,10 +15,12 @@ body {
 }
 
 .drop-button {
-    background-color: #31B4E8;
+    background-color: #f4c02a;
     color: black;
     text-align: left;
     font-size: 20px;
+    font-family: 'Bebas Neue';
+    vertical-align: middle;
     border: none;
     position: relative;
     z-index: 1;
@@ -44,7 +52,20 @@ body {
 
 .dropdown:hover .drop-content {display: block;}
 
-.dropdown:hover .drop-button {background-color: #207799;}
+.dropdown:hover .drop-button {
+    background-color: #31B4E8; 
+    color: white;
+}
+
+.subtitle-smaller {
+    color: black;
+    font-size: 3vw;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    vertical-align: middle;
+    font-stretch: ultra-condensed;
+    position: relative;
+}
 
 .home-text {
     color: black;
@@ -66,6 +87,10 @@ body {
     position: relative;
 }
 
+.yellow {
+    color: #f4c02a;
+}
+
 .blue {
     color: #31B4E8;
 }
@@ -78,22 +103,74 @@ body {
     vertical-align: middle;
     font-stretch: ultra-condensed;
     position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
 }
+
+.blue-subtitle-no-margin {
+    color: #31B4E8;
+    font-size: 4vw;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    vertical-align: middle;
+    font-stretch: ultra-condensed;
+    position: relative;
+}
+
+.subtitle {
+    color: black;
+    font-size: 4vw;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    vertical-align: middle;
+    font-stretch: ultra-condensed;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.subtitle-icon {
+    color: black;
+    font-size: 4vw;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    vertical-align: middle;
+    font-stretch: ultra-condensed;
+    position: relative;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 16px;
+  }
+  
+  th:first-child, td:first-child {
+    text-align: left;
+    padding-left: 40px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+  
+  .fa-check {
+    color: green;
+  }
+  
+  .fa-remove {
+    color: red;
+  }
 
 .blue-non-caps {
     color: #31B4E8;
     font-family: 'Arvo';
-}
-
-.home-small-text {
-    color: black;
-    font-size: 2.5vw;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    vertical-align: middle;
-    font-stretch: ultra-condensed;
-    padding-top: 2vw;
-    position: relative;
 }
 
 .center-image {
@@ -104,8 +181,65 @@ body {
     margin-right: auto;
 }
 
-.main-menu {
+.center-image-small {
+    display: block;
+    width: 20%;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-image-small {
+    display: inline-block;
+    width: 20%;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.right-image-small {
+    display: inline-block;
+    width: 20%;
+    padding-top: 10px;
+}
+
+.blue-bar {
     fill: #31B4E8;
     position: sticky;
     margin-top: -10px;
 }
+
+.headshots {
+    display: flex;
+}
+
+.ha { 
+    flex: 0.7709;
+    padding-left: 60px;
+}
+
+.hk { flex: 0.8001; }
+.hr { flex: 0.8976; }
+.ht { flex: 0.8444; }
+
+.headshots {
+    margin-left: 25px;
+}
+
+.under-img {
+    display: flex;
+    font-size: 4vw;
+}
+
+.under-img-small {
+    display: flex;
+    font-size: 2vw;
+}
+
+.ac { margin-left: 100px; }
+.kl { margin-left: 110px; }
+.rs { margin-left: 140px; }
+.tt { margin-left: 80px; }
+.acs { margin-left: 100px; }
+.kls { margin-left: 145px; }
+.rss { margin-left: 232px; }
+.tts { margin-left: 155px; }
